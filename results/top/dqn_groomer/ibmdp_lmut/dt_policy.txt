@@ -1,0 +1,2 @@
+DT Policy (1 nodes, depth=0)
+└── LEAF → action=0

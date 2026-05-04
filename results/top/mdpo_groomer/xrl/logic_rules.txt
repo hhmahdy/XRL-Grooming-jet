@@ -1,0 +1,7 @@
+LogicXGNN Predicate Rules
+Fidelity: 1.0000
+
+|--- pred_3 <= 0.500
+|   |--- class: 1.0
+|--- pred_3 >  0.500
+|   |--- class: 0.0

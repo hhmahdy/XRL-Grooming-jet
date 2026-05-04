@@ -1,0 +1,5 @@
+{
+    "agent_type": "dqn",
+    "state_dim": 2,
+    "architecture": "SB3-MlpPolicy"
+}

@@ -1,0 +1,23 @@
+Metadata-Version: 2.4
+Name: groomrl
+Version: 2.0.0
+Summary: GroomRL with SB3 + XRL support
+Requires-Python: >=3.8
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: scikit-learn
+Requires-Dist: gymnasium
+Provides-Extra: sb3
+Requires-Dist: stable-baselines3>=2.0; extra == "sb3"
+Provides-Extra: xrl
+Requires-Dist: torch; extra == "xrl"
+Requires-Dist: torch_geometric; extra == "xrl"
+Requires-Dist: networkx; extra == "xrl"
+Provides-Extra: legacy
+Requires-Dist: keras; extra == "legacy"
+Requires-Dist: tensorflow; extra == "legacy"
+Requires-Dist: keras-rl; extra == "legacy"
+Dynamic: provides-extra
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary

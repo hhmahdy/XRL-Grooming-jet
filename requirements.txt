@@ -1,0 +1,27 @@
+# Core GroomRL requirements
+numpy>=1.21
+matplotlib>=3.5
+scipy
+
+# Gymnasium (replaces legacy gym for SB3 compatibility)
+gymnasium>=0.26
+
+# SB3 agents
+stable-baselines3>=2.0
+
+# XRL – Surrogate DT
+scikit-learn>=1.0
+
+# XRL – GNN / LogicXGNN (optional, comment out if not needed)
+torch>=2.0
+torch_geometric>=2.3
+networkx>=3.0
+
+# Hyperparameter scan (optional)
+# hyperopt
+# pymongo
+
+# Legacy keras-rl path (optional)
+# tensorflow
+# keras
+# keras-rl

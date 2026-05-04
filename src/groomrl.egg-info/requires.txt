@@ -1,0 +1,17 @@
+numpy
+matplotlib
+scikit-learn
+gymnasium
+
+[legacy]
+keras
+tensorflow
+keras-rl
+
+[sb3]
+stable-baselines3>=2.0
+
+[xrl]
+torch
+torch_geometric
+networkx

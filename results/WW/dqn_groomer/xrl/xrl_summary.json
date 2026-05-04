@@ -1,0 +1,15 @@
+{
+  "n_nodes": 1837586,
+  "n_groomed": 328043,
+  "groom_fraction": 0.17851844757197757,
+  "dt_max_depth": 4,
+  "dt_train_acc": 0.989754493123043,
+  "feature_names": [
+    "lnz",
+    "lnDelta"
+  ],
+  "dt_rules": "|--- lnz <= -5.1415\n|   |--- lnDelta <= -3.7441\n|   |   |--- lnDelta <= -3.8333\n|   |   |   |--- lnz <= -6.7221\n|   |   |   |   |--- class: 0\n|   |   |   |--- lnz >  -6.7221\n|   |   |   |   |--- class: 0\n|   |   |--- lnDelta >  -3.8333\n|   |   |   |--- lnz <= -5.6558\n|   |   |   |   |--- class: 1\n|   |   |   |--- lnz >  -5.6558\n|   |   |   |   |--- class: 0\n|   |--- lnDelta >  -3.7441\n|   |   |--- lnz <= -10.0607\n|   |   |   |--- lnz <= -22.2712\n|   |   |   |   |--- class: 0\n|   |   |   |--- lnz >  -22.2712\n|   |   |   |   |--- class: 1\n|   |   |--- lnz >  -10.0607\n|   |   |   |--- lnz <= -5.4411\n|   |   |   |   |--- class: 1\n|   |   |   |--- lnz >  -5.4411\n|   |   |   |   |--- class: 1\n|--- lnz >  -5.1415\n|   |--- lnDelta <= -1.8564\n|   |   |--- lnDelta <= -2.2287\n|   |   |   |--- lnz <= -5.0303\n|   |   |   |   |--- class: 0\n|   |   |   |--- lnz >  -5.0303\n|   |   |   |   |--- class: 0\n|   |   |--- lnDelta >  -2.2287\n|   |   |   |--- lnz <= -4.0066\n|   |   |   |   |--- class: 1\n|   |   |   |--- lnz >  -4.0066\n|   |   |   |   |--- class: 0\n|   |--- lnDelta >  -1.8564\n|   |   |--- lnz <= -3.3429\n|   |   |   |--- lnz <= -3.5348\n|   |   |   |   |--- class: 1\n|   |   |   |--- lnz >  -3.5348\n|   |   |   |   |--- class: 1\n|   |   |--- lnz >  -3.3429\n|   |   |   |--- lnDelta <= -0.8527\n|   |   |   |   |--- class: 0\n|   |   |   |--- lnDelta >  -0.8527\n|   |   |   |   |--- class: 1\n",
+  "gnn_available": true,
+  "gnn_node_acc": 0.9457247863227249,
+  "logic_dt_fidelity": 0.99998
+}

@@ -1,0 +1,48 @@
+{
+    "_comment": "Runcard for SB3 DQN / PPO training. Pass --agent dqn or --agent ppo on the CLI.",
+    "groomer_env": {
+        "fn": "../../data/train/Top_2TeV.json.gz",
+        "fn_bkg": "../../data/train/QCD_2TeV.json.gz",
+        "nev": 10000,
+        "mass": 80.385,
+        "width": 10.0,
+        "width_bkg": 10.0,
+        "reward": "cauchy",
+        "state_dim": 2,
+        "SD_groom": "exp_add",
+        "SD_keep": "exp_add",
+        "alpha1": 0.5,
+        "beta1": 0.5,
+        "alpha2": 0.5,
+        "beta2": 0.5,
+        "SD_norm": 0.1,
+        "lnzRef1": -2.0,
+        "lnzRef2": -2.0
+    },
+    "groomer_agent": {
+        "nb_units": 64,
+        "nb_layers": 2,
+        "learning_rate": 0.001,
+        "nstep": 50000,
+        "buffer_size": 500000,
+        "learning_starts": 500,
+        "batch_size": 32,
+        "tau": 1.0,
+        "gamma": 0.99,
+        "target_update_interval": 100,
+        "exploration_fraction": 0.1,
+        "exploration_final_eps": 0.05,
+        "n_steps": 2048,
+        "n_epochs": 10,
+        "gae_lambda": 0.95,
+        "clip_range": 0.2,
+        "ent_coef": 0.0,
+        "tensorboard_log": "././results_260417/top/mdpo_groomer//tensorboard/"
+    },
+    "test": {
+        "fn": "../../data/test/test_Top_2TeV.json.gz",
+        "fn_bkg": "../../data/test/test_QCD_2TeV.json.gz"
+    },
+    "agent": "mdpo",
+    "output": "./results_260417/top/mdpo_groomer/"
+}

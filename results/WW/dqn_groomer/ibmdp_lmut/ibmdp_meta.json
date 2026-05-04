@@ -1,0 +1,55 @@
+{
+  "lmut_importance": [
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666
+  ],
+  "lmut_summary": {
+    "action_0": {
+      "n_nodes": 1,
+      "n_leaves": 1,
+      "depth": 0
+    },
+    "action_1": {
+      "n_nodes": 1,
+      "n_leaves": 1,
+      "depth": 0
+    },
+    "action_2": {
+      "n_nodes": 1,
+      "n_leaves": 1,
+      "depth": 0
+    },
+    "action_3": {
+      "n_nodes": 1,
+      "n_leaves": 1,
+      "depth": 0
+    },
+    "action_4": {
+      "n_nodes": 1,
+      "n_leaves": 1,
+      "depth": 0
+    },
+    "action_5": {
+      "n_nodes": 1,
+      "n_leaves": 1,
+      "depth": 0
+    },
+    "action_6": {
+      "n_nodes": 1,
+      "n_leaves": 1,
+      "depth": 0
+    },
+    "action_7": {
+      "n_nodes": 1,
+      "n_leaves": 1,
+      "depth": 0
+    }
+  },
+  "dt_n_nodes": 1,
+  "dt_depth": 0,
+  "train_time_s": 776.5087912082672
+}

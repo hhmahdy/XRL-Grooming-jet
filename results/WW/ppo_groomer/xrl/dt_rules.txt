@@ -1,0 +1,49 @@
+Surrogate Decision Tree Rules (depth=4)
+Train accuracy: 0.9934
+
+|--- lnz <= -5.1248
+|   |--- lnDelta <= -3.3813
+|   |   |--- lnz <= -5.9915
+|   |   |   |--- lnDelta <= -3.8514
+|   |   |   |   |--- class: 1
+|   |   |   |--- lnDelta >  -3.8514
+|   |   |   |   |--- class: 1
+|   |   |--- lnz >  -5.9915
+|   |   |   |--- lnDelta <= -3.5562
+|   |   |   |   |--- class: 0
+|   |   |   |--- lnDelta >  -3.5562
+|   |   |   |   |--- class: 0
+|   |--- lnDelta >  -3.3813
+|   |   |--- lnDelta <= -3.2041
+|   |   |   |--- lnz <= -5.3613
+|   |   |   |   |--- class: 1
+|   |   |   |--- lnz >  -5.3613
+|   |   |   |   |--- class: 0
+|   |   |--- lnDelta >  -3.2041
+|   |   |   |--- lnDelta <= -3.1511
+|   |   |   |   |--- class: 1
+|   |   |   |--- lnDelta >  -3.1511
+|   |   |   |   |--- class: 1
+|--- lnz >  -5.1248
+|   |--- lnDelta <= -1.9396
+|   |   |--- lnz <= -4.5807
+|   |   |   |--- lnDelta <= -2.9590
+|   |   |   |   |--- class: 0
+|   |   |   |--- lnDelta >  -2.9590
+|   |   |   |   |--- class: 1
+|   |   |--- lnz >  -4.5807
+|   |   |   |--- lnDelta <= -2.4637
+|   |   |   |   |--- class: 0
+|   |   |   |--- lnDelta >  -2.4637
+|   |   |   |   |--- class: 0
+|   |--- lnDelta >  -1.9396
+|   |   |--- lnz <= -3.0087
+|   |   |   |--- lnDelta <= -1.8970
+|   |   |   |   |--- class: 1
+|   |   |   |--- lnDelta >  -1.8970
+|   |   |   |   |--- class: 1
+|   |   |--- lnz >  -3.0087
+|   |   |   |--- lnDelta <= -1.3237
+|   |   |   |   |--- class: 0
+|   |   |   |--- lnDelta >  -1.3237
+|   |   |   |   |--- class: 1

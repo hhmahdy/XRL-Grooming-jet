@@ -1,0 +1,2 @@
+[console_scripts]
+groomer = groomrl.scripts.groomer:main
